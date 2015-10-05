@@ -1,0 +1,67 @@
+
+.jumbotron {
+text-align: center;
+}
+img {
+    display: inline-block;
+
+}
+h1, h2 {
+text-align: center;
+   font-family: 'Permanent Marker', cursive;
+}
+
+p, h1, h2 {
+font-family: 'Oswald', sans-serif;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .container {
+    background-color: yellow;
+    }
+    img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    background-color: hotpink;
+    }
+    h1 {
+    font-size: 75px;
+    }
+    h2 {
+    font-size: 30px;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.container {
+    background-color: orangered;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .container {
+    background-color: greenyellow;
+    }
+    h1 {
+    font-size: 32px;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.container {
+    background-color: skyblue;
+    }
+}
