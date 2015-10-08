@@ -15,6 +15,10 @@ p, h1, h2 {
 font-family: 'Oswald', sans-serif;
 }
 
+.row {
+height: 500px;
+    padding-top: 50px;
+}
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -26,7 +30,7 @@ font-family: 'Oswald', sans-serif;
 	height: auto;
 	width: auto\9; /* ie8 */
 }
-
+   
 }
 
 /* Landscape tablets and medium desktops */
